@@ -26,7 +26,7 @@ const HeaderSection = () => {
   return (
     <div className="flex relative text-sm gap-7 items-center">
       {headerSections.map((section, index) => (
-        <a
+        <div
           key={index}
           className="flex flex-col gap-1  hover:text-blue-600 text-black/70 items-center hover:underline "
         >
@@ -34,7 +34,7 @@ const HeaderSection = () => {
             <span>{section.icon}</span>
             <span className="text-xs">{section.text}</span>
           </Link>
-        </a>
+        </div>
       ))}
     </div>
   );

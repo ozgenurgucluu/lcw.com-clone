@@ -4,8 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ListProducts = ({ products = [] }) => {
-  console.log("productbu", products);
-
   return (
     <div className="p-2 bg-slate-50">
       {products.length > 0 ? (

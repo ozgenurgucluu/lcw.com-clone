@@ -4,6 +4,7 @@ import HeaderTop from "@/components/HeaderTop";
 import HeaderSection from "../HeaderSection";
 import LogoIcon from "@/icons/LogoIcon";
 import HeaderCategories from "../HeaderCategories";
+import Link from "next/link";
 
 const Header = ({ categories = [] }) => {
   return (
@@ -11,9 +12,9 @@ const Header = ({ categories = [] }) => {
       <div className="sticky top-0 left-0 bg-white flex flex-col gap-0 z-50 w-full sm:px-6 px-2.5 ">
         <HeaderTop />
         <div className=" flex justify-between items-center sm:gap-56 ">
-          <div className=" flex -ml-4 ">
+          <Link href="/" className=" flex -ml-4 ">
             <LogoIcon />
-          </div>
+          </Link>
           <div className="flex justify-center relative items-center group focus-within:bg-transparent">
             <input
               className="sm:min-w-[778px] h-[36px] px-2 border-black rounded-xl focus:rounded-xl bg-gray-100/60 flex pl-10 outline-none focus:border-blue-600 focus:bg-white text-sm border"

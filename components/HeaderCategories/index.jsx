@@ -13,7 +13,7 @@ const HeaderCategories = ({ categories = [] }) => {
   };
 
   return (
-    <div className="shadow-lg bg-white shadow-gray-200 mt-4 pb-2 z-50 sm:px-6 px-2.5 flex gap-10">
+    <div className="shadow-lg bg-white shadow-gray-200  pb-2 z-50 sm:px-6 px-2.5 flex gap-10">
       {categories.map((category, index) => (
         <div
           key={index}

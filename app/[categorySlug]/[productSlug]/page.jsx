@@ -10,8 +10,6 @@ const ProductSlug = async ({ params }) => {
   const isCart = await fetch(
     `http://localhost:3001/cart?productId=${productSlug}`
   ).then((res) => res.json());
-  console.log("burası", isCart);
-  
 
   return (
     <div>

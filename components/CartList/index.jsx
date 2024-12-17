@@ -103,7 +103,7 @@ const CartList = ({ cart }) => {
               key={index}
               className="flex flex-col bg-blue-100 justify-center items-center max-w-72 gap-3 p-3.5 rounded-md"
             >
-              <span className="text-black flex w-20 h-24">{item.icon}</span>
+              <span className="text-blue-700 flex w-20 h-24">{item.icon}</span>
               <h1 className="text-blue-700 text-lg text-center font-semibold">
                 {item.title}
               </h1>

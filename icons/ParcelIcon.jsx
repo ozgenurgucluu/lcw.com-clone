@@ -3,27 +3,16 @@ import React from "react";
 const Icon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-    version="1.1"
-    viewBox="0 0 32 32"
-    style={{ enableBackground: "new 0 0 32 32" }}
-    xmlSpace="preserve"
+    id="Layer_1"
+    data-name="Layer 1"
+    viewBox="0 0 512 512"
   >
-    <style>
-      {`
-        .st0 { fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
-        .st1 { fill: none; stroke: #000000; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: 3; }
-        .st2 { fill: none; stroke: #000000; stroke-width: 2; stroke-linejoin: round; stroke-miterlimit: 10; }
-        .st3 { fill: none; }
-      `}
-    </style>
-    <polyline className="st0" points="26,18 26,24 16,28 6,24 6,18" />
-    <polygon className="st0" points="6,12 16,8 26,12 16,16" />
-    <polyline className="st0" points="16,8 13,5 3,9 6,12" />
-    <polyline className="st0" points="16,8 19,5 29,9 26,12" />
-    <polyline className="st0" points="6,12 3,16 13,20 16,16" />
-    <polyline className="st0" points="26,12 29,16 19,20 16,16" />
-    <rect x="-216" y="-504" className="st3" width="536" height="680" />
+    <title>Package Arrived</title>
+    <path
+      d="M488.224,243.875l-47.7-57.74,47.667-57.2a10.661,10.661,0,0,0-3.943-16.612l-170.667-74.1a10.643,10.643,0,0,0-12.443,2.956L256,95.341,210.859,41.174a10.655,10.655,0,0,0-12.443-2.956L27.75,112.323a10.661,10.661,0,0,0-3.943,16.612l47.667,57.2-47.7,57.74a10.668,10.668,0,0,0,3.974,16.581l46.917,20.371V389.9a10.669,10.669,0,0,0,6.417,9.786l170.667,74.1c.016.007.034.009.05.016a10.565,10.565,0,0,0,1.931.61c.038.008.074.027.111.035a10.734,10.734,0,0,0,4.315,0c.038-.008.073-.027.111-.035a10.565,10.565,0,0,0,1.931-.61c.016-.007.034-.009.05-.016l170.667-74.1a10.669,10.669,0,0,0,6.417-9.786V280.827l46.917-20.371a10.668,10.668,0,0,0,3.974-16.581ZM312.411,60.969l150.276,65.25-39.1,46.922-150.276-65.25Zm87.473,125.138L256,248.582,112.116,186.107,256,123.63ZM199.589,60.969l39.1,46.922L88.411,173.141l-39.1-46.922ZM88.447,199.088l150.3,65.261-39.19,47.445-150.3-65.263Zm7.553,91,102.417,44.47a10.675,10.675,0,0,0,12.474-2.995l34.443-41.695V447.741L96,382.9ZM416,382.9,266.667,447.741V289.87l34.443,41.695a10.675,10.675,0,0,0,12.474,2.995L416,290.09ZM312.448,311.794l-39.19-47.445,150.3-65.261,39.191,47.443Z"
+      id="id_101"
+      style={{ fill: "rgb(17, 3, 214)" }}
+    />
   </svg>
 );
 

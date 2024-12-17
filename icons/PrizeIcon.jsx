@@ -11,8 +11,8 @@ const PrizeIcon = () => {
       <defs>
         <style>
           {`
-          .cls-1 { fill: #2e79bd; }
-          .cls-2 { fill: #2d3e50; }
+          .cls-1 { fill: #1D4ED8; }
+          .cls-2 { fill: #1D4ED8; }
         `}
         </style>
       </defs>

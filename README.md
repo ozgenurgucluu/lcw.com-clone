@@ -3,8 +3,17 @@
 ### Home Page Screenshot
 
 ![home-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/home-page.png)
+
+### Category Page Screenshot
+
 ![category-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/mega-menu.png)
+
+### Product Detail Page Screenshot
+
 ![product-detail-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/product-detail.png)
+
+### Cart Page Screenshot
+
 ![cart-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/cart-page.png)
 
 # Getting Started with Create Next.js App

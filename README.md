@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LCW.COM CLONE
 
-## Getting Started
+### Home Page Screenshot
 
-First, run the development server:
+![home-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/home-page.png)
+![category-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/mega-menu.png)
+![product-detail-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/product-detail.png)
+![cart-page](https://github.com/ozgenurgucluu/lcw.com-clone/blob/main/screenshots/cart-page.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Getting Started with Create Next.js App
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In this project, I cloned the Trendyol web application. Categories, add to cart, favorite, save, login and more work with dynamic components. I used `Tailwind` with `Next.js`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+In the project directory, you can run:
 
-## Learn More
+### `npm install`
 
-To learn more about Next.js, take a look at the following resources:
+Install packages in the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### `npm run dev`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-## Deploy on Vercel
+## Backend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install the dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### `npm install -g json-server`
+
+Start JSON Server
+
+### `json-server -w database.json -p 3001`
